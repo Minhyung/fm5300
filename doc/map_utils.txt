@@ -1,0 +1,175 @@
+Help on module map_utils:
+
+NAME
+    map_utils
+
+FILE
+    /fm_api_sdk/utils/map_utils.py
+
+CLASSES
+    __builtin__.object
+        MapUtils
+    
+    class MapUtils(__builtin__.object)
+     |  MapUtils class provides custom methods to perform various map related operations
+     |  
+     |  Methods defined here:
+     |  
+     |  __init__(self, fm, ns)
+     |  
+     |  add_map_rule(self, device_str, map_alias, rule_type, payload={})
+     |      Add map rule to an existing map
+     |      
+     |      Parameters:
+     |          deviceStr: device ip (or) hostname (or) cluster id
+     |          map_alias: map alias
+     |          rule_type: 'pass' or 'drop'
+     |          payload: map rule in dictionary format (like below)
+     |      
+     |                  data = {
+     |                      'ruleId': 3,
+     |                      'comment': '',
+     |                      'bidi': False,
+     |                      'matches': [
+     |                          {
+     |                              'type': 'macSrc',
+     |                              'value': '00:11:22:33:44:55'
+     |                          }
+     |                      ]
+     |                  }
+     |      
+     |          Return:
+     |              1: Fail
+     |              0: Success
+     |  
+     |  create_map(self, device_str, payload={})
+     |      Create map on the given cluster using the payload provided.
+     |      
+     |      Parameters:
+     |          device_str: device ip (or) hostname (or) cluster id
+     |          payload: map specific input in dictionary format (like below)
+     |      
+     |                   data = {
+     |                       'alias': 'test-map-1',
+     |                       'subType': 'byRule',
+     |                       'srcPorts': ['1/1/x1'],
+     |                       'type': 'regular',
+     |                       'dstPorts': ['1/1/x2'],
+     |                       'rules': {
+     |                           'dropRules': [],
+     |                           'passRules': [
+     |                            {
+     |                                'comment': '',
+     |                                 'bidi': False,
+     |                                 'matches': [{
+     |                                      'type': 'ipVer',
+     |                                      'value': 'v4'
+     |                                 }],
+     |                                 'ruleId': 1
+     |                            },
+     |                            {
+     |                                 'comment': '',
+     |                                 'bidi': False,
+     |                                 'matches': [{
+     |                                     'type': 'ipVer',
+     |                                     'value': 'v6'
+     |                                 }],
+     |                                 'ruleId': 2
+     |                            }
+     |                            ]
+     |                       }
+     |                  }
+     |      
+     |          Return:
+     |              1: Fail
+     |              0: Success
+     |  
+     |  delete_map_by_alias(self, device_str, alias)
+     |      Method to delete a map by alias
+     |      
+     |      Parameters:
+     |          device_str: device ip (or) hostname (or) cluster id
+     |          alias: map alias
+     |      
+     |      Return:
+     |          1: Fail
+     |          0: Success
+     |  
+     |  get_maps(self, device_str)
+     |      Method to get all maps associated with the one or more devices
+     |      
+     |      Parameters:
+     |          device_str: device ip (or) hostname (or) cluster id
+     |      
+     |      Return:
+     |          mapList: List of maps associated with a specific cluster
+     |  
+     |  get_maps_by_port(self, clusterId, portId)
+     |      Method to get all maps associated with the given port
+     |      
+     |      Parameters:
+     |          clusterId: cluster id
+     |          portId: port id
+     |      
+     |      Return:
+     |          mapList: On a given cluster, list of maps associated with a specific port
+     |  
+     |  get_maps_from_all_devices(self)
+     |      Method to get maps associated with all the devices
+     |      
+     |      Return:
+     |          cluster_maps: Dict of all clusters and its maps
+     |  
+     |  update_map(self, device_str, map_alias, payload={})
+     |      Incremental update to an existing map
+     |      
+     |      Parameters:
+     |          deviceStr: device ip (or) hostname (or) cluster id
+     |          map_alias: map alias
+     |          payload: map specific input in dictionary format (like below)
+     |      
+     |                   data = {
+     |                       'alias': 'test-map-1',
+     |                       'subType': 'byRule',
+     |                       'srcPorts': ['1/1/x1'],
+     |                       'type': 'regular',
+     |                       'dstPorts': ['1/1/x2'],
+     |                       'rules': {
+     |                           'dropRules': [],
+     |                           'passRules': [
+     |                           {
+     |                               'comment': '',
+     |                               'bidi': False,
+     |                               'matches': [{
+     |                                   'type': 'ipVer',
+     |                                   'value': 'v4'
+     |                               }],
+     |                               'ruleId': 1
+     |                           },
+     |                           {
+     |                               'comment': '',
+     |                               'bidi': False,
+     |                               'matches': [{
+     |                                 'type': 'ipVer',
+     |                                 'value': 'v6'
+     |                               }],
+     |                               'ruleId': 2
+     |                           }
+     |                           ]
+     |                       }
+     |                  }
+     |      
+     |         Return:
+     |             1: Fail
+     |             0: Success
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+
+

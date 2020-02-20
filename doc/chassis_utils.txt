@@ -1,0 +1,154 @@
+Help on module chassis_utils:
+
+NAME
+    chassis_utils
+
+FILE
+    /fm_api_sdk/utils/chassis_utils.py
+
+CLASSES
+    __builtin__.object
+        ChassisUtils
+    
+    class ChassisUtils(__builtin__.object)
+     |  ChassisUtils class provides custom methods to perform various chassis related operations (for both standalone and clusters)
+     |  
+     |  Methods defined here:
+     |  
+     |  __init__(self, fm)
+     |  
+     |  configure_card(self, nodeId, cardSlot)
+     |      Configure card for a given device / cluster
+     |      
+     |      Parameters:
+     |          nodeId: device ip
+     |          cardSlot: card slot ID
+     |      
+     |      Return:
+     |          0 : For success
+     |          1 : For failure
+     |      
+     |      Example:
+     |      
+     |         ret = configure_card("10.115.32.5", "1/5")
+     |  
+     |  configure_chassis(self, deviceIp, **kwargs)
+     |      Configure chassis parameters for a given given device
+     |      
+     |      Parameters:
+     |          deviceStr: device ip
+     |          **kwargs: configure parameters such as boxId, mode, serialNumber, chassisType or gdp
+     |      
+     |      Return:
+     |          0 : For success
+     |          1 : For failure
+     |      
+     |      Example:
+     |      
+     |         ret = configure_chassis(deviceStr="10.115.32.5", gdp=true)
+     |  
+     |  get_card_info(self, nodeId, cardSlot)
+     |      Get card info a given device / cluster
+     |      
+     |      Parameters:
+     |          nodeId: device ip
+     |          cardSlot: card slot ID
+     |      
+     |      Return:
+     |          card info (dict): For success
+     |          {} : For failure
+     |      
+     |      Example:
+     |      
+     |         ret = get_card_info("10.115.32.5", "1/5")
+     |  
+     |  get_chassis_card_inventory(self, clusterId=None, nodeId=None)
+     |      Get chassis inventory for a given cluster or device
+     |      
+     |      Parameters:
+     |          clusterId: cluster id
+     |          nodeId: node id
+     |      
+     |      Return:
+     |          cardList: Chassis card inventory for the matching cluster or node
+     |  
+     |  get_chassis_inventory(self, clusterId=None, nodeId=None)
+     |      Get chassis inventory for a given cluster or device
+     |      
+     |      Parameters:
+     |          clusterId: cluster id
+     |          nodeId: node id
+     |      
+     |      Return:
+     |          chassisList: Chassis inventory for the matching cluster or node
+     |  
+     |  reload_card(self, nodeId, cardSlot)
+     |      Reload card for a given device / cluster
+     |      
+     |      Parameters:
+     |          nodeId: device ip
+     |          cardSlot: card slot ID
+     |      
+     |      Return:
+     |          0 : For success
+     |          1 : For failure
+     |      
+     |      Example:
+     |      
+     |         ret = reload_card("10.115.32.5", "1/5")
+     |  
+     |  restart_card(self, nodeId, cardSlot)
+     |      Restart card for a given device / cluster
+     |      
+     |      Parameters:
+     |          nodeId: device ip
+     |          cardSlot: card slot ID
+     |      
+     |      Return:
+     |          0 : For success
+     |          1 : For failure
+     |      
+     |      Example:
+     |      
+     |         ret = no_shutdown_card("10.115.32.5", "1/5")
+     |  
+     |  shutdown_card(self, nodeId, cardSlot)
+     |      Shutdown card for a given device / cluster
+     |      
+     |      Parameters:
+     |          nodeId: device ip
+     |          cardSlot: card slot ID
+     |      
+     |      Return:
+     |          0 : For success
+     |          1 : For failure
+     |      
+     |      Example:
+     |      
+     |         ret = shutdown_card("10.115.32.5", "1/5")
+     |  
+     |  unconfigure_card(self, nodeId, cardSlot)
+     |      Unconfigure card for a given device / cluster
+     |      
+     |      Parameters:
+     |          nodeId: device ip
+     |          cardSlot: card slot ID
+     |      
+     |      Return:
+     |          0 : For success
+     |          1 : For failure
+     |      
+     |      Example:
+     |      
+     |         ret = unconfigure_card("10.115.32.5", "1/5")
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+
+

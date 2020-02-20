@@ -1,0 +1,90 @@
+Help on module node_utils:
+
+NAME
+    node_utils
+
+FILE
+    /fm_api_sdk/utils/node_utils.py
+
+CLASSES
+    __builtin__.object
+        NodeUtils
+    
+    class NodeUtils(__builtin__.object)
+     |  NodeUtils class provides custom methods to perform various operations on nodes (for both standalone and clusters)
+     |  
+     |  Methods defined here:
+     |  
+     |  __init__(self, fm)
+     |  
+     |  add_node_to_fm(self, nodeIp, nodeUser, nodePasswd)
+     |      Method to add a node to FM
+     |      
+     |      Parameters:
+     |          nodeIp: device ip
+     |          nodeUser: device user
+     |          nodePasswd: device password
+     |      
+     |      Return:
+     |          0: For success
+     |          1: For failure
+     |  
+     |  add_nodes_from_file(self, csvfile, de_limiter=';')
+     |      Method to add one or more nodes from CSV file
+     |      
+     |      Parameters:
+     |          csvfile: csvfile with all device details
+     |                   (First line of CSV file is the header (contains 'name', 'username', 'password'))
+     |          de_limiter: Delimiter used in the csvfile
+     |      
+     |      Return:
+     |          0: For success
+     |          1: For failure
+     |  
+     |  delete_node(self, device_str)
+     |      Method to delete a node to FM
+     |      
+     |      Parameters:
+     |          device_str: device ipaddress or hostname to be deleted from FM
+     |      
+     |      Return:
+     |          0: For success
+     |          1: For failure
+     |  
+     |  get_cluster_id(self, device_str='')
+     |      Returns the cluster id for device hostname or ip address
+     |      
+     |      Parameters:
+     |          device_str: device ip (or) hostname (or) cluster id
+     |      
+     |      Return:
+     |          cluster_id: For success
+     |          None: For failure
+     |  
+     |  get_device_inventory(self, devicefilter={})
+     |      Get device inventory from FM based on the device filter
+     |      
+     |      Parameters:
+     |          devicefilter: dictionary with one or more of the keys ( 'deviceIp', 'operStatus',
+     |                        'swVersion', 'hostname', 'clusterMode', 'deviceId', 'healthState', 'model' )
+     |      
+     |      Return:
+     |          node_list: List of matched devices
+     |      
+     |      Example:
+     |      
+     |          out = client.get_device_inventory(devicefilter={'hostname' : 'TA40'})
+     |          out = client.get_device_inventory(devicefilter={'hostname' : 'TA40'})
+     |          out = client.get_device_inventory(devicefilter={'deviceIp': '10.115.32', 'model': 'HD8'})
+     |          out = client.get_device_inventory(devicefilter={'deviceIp': '10.115.32', 'hostname': 'HD8', 'model': 'HD8'})
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+
+

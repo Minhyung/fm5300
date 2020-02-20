@@ -1,0 +1,105 @@
+Help on module port_utils:
+
+NAME
+    port_utils
+
+FILE
+    /fm_api_sdk/utils/port_utils.py
+
+CLASSES
+    __builtin__.object
+        PortUtils
+    
+    class PortUtils(__builtin__.object)
+     |  PortUtils class provides custom methods to perform various port related operations
+     |  
+     |  Methods defined here:
+     |  
+     |  __init__(self, fm, ns)
+     |  
+     |  configure_port_config(self, deviceStr, portId, **kwargs)
+     |      Configure single or multiple ports on a given device
+     |      
+     |      Parameters:
+     |          deviceStr: device ip (or) cluster id (or) hostname
+     |          portId: port id (can be 1/1/x1 or 1/1/x1..1/1/x3 or 1/1/x1,1/1/x2,1/1/x3)
+     |          adminStatus: "up" or "down"
+     |      
+     |      Return:
+     |          0 : For success
+     |          1 : For failure
+     |      
+     |      Example:
+     |      
+     |         ret = configure_port_config(deviceStr="10.115.32.5", portId="1/1/x1", neighborDiscovery="all", alarmThreshold=95, alarmThresholdLow=60)
+     |         ret = configure_port_config(deviceStr="10.115.32.5", portId="1/1/x2", ingressVlanTag=900)
+     |         ret = configure_port_config(deviceStr="10.115.32.5", portId="1/1/x1..1/1/x3", neighborDiscovery="all")
+     |         ret = configure_port_config(deviceStr="10.115.32.5", portId="1/1/x1,1/1/x2,1/1/x3", ingressVlanTag=900)
+     |  
+     |  configure_ports(self, deviceStr, portId, **kwargs)
+     |      Configure single or multiple ports on a given device
+     |      
+     |      Parameters:
+     |          deviceStr: device ip (or) cluster id (or) hostname
+     |          portId: port id (can be 1/1/x1 or 1/1/x1..1/1/x3 or 1/1/x1,1/1/x2,1/1/x3)
+     |          adminStatus: "up" or "down"
+     |      
+     |      Return:
+     |          0 : For success
+     |          1 : For failure
+     |      
+     |      Example:
+     |      
+     |         ret = configure_ports(deviceStr="10.115.32.5", portId="1/1/x1", portType="network", adminStatus="up")
+     |         ret = configure_ports(deviceStr="10.115.32.5", portId="1/1/x2", portType="tool", adminStatus="up")
+     |         ret = configure_ports(deviceStr="10.115.32.5", portId="1/1/x1..1/1/x3", portType="network", adminStatus="up")
+     |         ret = configure_ports(deviceStr="10.115.32.5", portId="1/1/x1,1/1/x2,1/1/x3", portType="tool", adminStatus="up")
+     |  
+     |  get_port_config_count(self, clusterId)
+     |  
+     |  get_port_count(self, clusterId)
+     |  
+     |  get_ports_by_status(self, device_str, adminStatus=None, operStatus=None)
+     |      Return the list of ports (matching the status) for a given device or for all devices managed by FM
+     |      
+     |      Parameters:
+     |          device_str: device ip (or) hostname (or) cluster id
+     |          adminStatus: 'up' or 'down'
+     |          operStatus: 'up' or 'down'
+     |      
+     |      Return:
+     |          return_list: List of ports matching the adminStatus and operStatus
+     |  
+     |  get_ports_by_type(self, device_str, port_filter=[])
+     |      Return the list of ports (of one or more types) for a given cluster
+     |      
+     |      Parameters:
+     |          device_str: device ip (or) hostname (or) cluster id
+     |          port_filter: one or more of port type ("network" or "tool" or "stack" or "gateway" or "inline-net" or
+     |                       "inline-tool" or "hybrid" or "gigasmart")
+     |      
+     |      Return:
+     |          return_list: List of ports matching the filter
+     |  
+     |  get_ports_from_all_devices(self)
+     |      Return the list of all ports for all devices
+     |      
+     |      Return:
+     |          cluster_ports: Dict of cluster and associated ports
+     |  
+     |  get_unhealthy_ports(self)
+     |      Return the list of all ports (with adminStatus as up and operStatus as down) across all managed devices
+     |      
+     |      Return:
+     |          return_list: List of ports
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+
+

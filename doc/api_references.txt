@@ -1,0 +1,1984 @@
+
+# Automatically generated at: 2018-07-03 11:42:10
+# Number of apis mapped 396
+
+API endpoint: /apps/inlineSsl
+Mapped function name: appsinlineSsl
+Method: GET
+Summary: Load inline SSL global configuration
+
+API endpoint: /maps/{alias}/flowWhitelistOverlapRules/pass
+Mapped function name: mapsaliasflowWhitelistOverlapRulespass
+Method: POST
+Summary: Add new flowWhitelistOverlapRule to a 'secondLevel/flowWhitelistOverlap' map
+
+API endpoint: /apps/sip/whitelists/{alias}/entries/all
+Mapped function name: appssipwhitelistsaliasentriesall
+Method: DELETE
+Summary: Delete All SIP Whitelist Entries
+
+API endpoint: /apps/keystore/keychain
+Mapped function name: appskeystorekeychain
+Method: GET
+Summary: Get keystore keychain State
+
+API endpoint: /clusterConfig/backup/repo
+Mapped function name: clusterConfigbackuprepo
+Method: GET
+Summary: Lists config backup snapshots for multiple clusters
+
+API endpoint: /vports/{alias}
+Mapped function name: vportsalias
+Method: DELETE
+Summary: Delete vPort by alias
+
+API endpoint: /avisi/policies/{policyId}
+Mapped function name: avisipoliciespolicyId
+Method: DELETE
+Summary: Delete Active Visibility Policy
+
+API endpoint: /system/tacacsServers/{serverAddress}
+Mapped function name: systemtacacsServersserverAddress
+Method: DELETE
+Summary: Delete TACACS+ Server by address
+
+API endpoint: /apps/sip/whitelists/{alias}
+Mapped function name: appssipwhitelistsalias
+Method: DELETE
+Summary: Delete SIP Whitelists
+
+API endpoint: /nodeCredentials/{deviceAddress}
+Mapped function name: nodeCredentialsdeviceAddress
+Method: DELETE
+Summary: Delete Device Credentials by address
+
+API endpoint: /system/diag
+Mapped function name: systemdiag
+Method: GET
+Summary: get system diagnostics information
+
+API endpoint: /events/archive
+Mapped function name: eventsarchive
+Method: POST
+Summary: Archive Events
+
+API endpoint: /trending/gsGroups/timeSeries
+Mapped function name: trendinggsGroupstimeSeries
+Method: GET
+Summary: Query GsGroup Time Series
+
+API endpoint: /trending/vports/timeSeries
+Mapped function name: trendingvportstimeSeries
+Method: GET
+Summary: Query vPort Time Series
+
+API endpoint: /clusterConfig/backup/file/upload
+Mapped function name: clusterConfigbackupfileupload
+Method: POST
+Summary: upload device config file
+
+API endpoint: /inventory/chassis/cards/configure
+Mapped function name: inventorychassiscardsconfigure
+Method: DELETE
+Summary: Unconfigure all device Chassis Cards
+
+API endpoint: /apps/inlineSsl/trustStore/cert/file/{fingerprint}
+Mapped function name: appsinlineSsltrustStorecertfilefingerprint
+Method: GET
+Summary: Get the Trust Store Certificate
+
+API endpoint: /portConfig/gigastreams/{alias}
+Mapped function name: portConfiggigastreamsalias
+Method: DELETE
+Summary: Delete gigastream by alias
+
+API endpoint: /gsGroups/gtpPersistence/files
+Mapped function name: gsGroupsgtpPersistencefiles
+Method: DELETE
+Summary: Delete all Gtp backup files
+
+API endpoint: /apps/inlineSsl/trustStore/cert
+Mapped function name: appsinlineSsltrustStorecert
+Method: POST
+Summary: Add certificate to the inline SSL trust-store
+
+API endpoint: /filterTemplates/limits/{slotId}
+Mapped function name: filterTemplateslimitsslotId
+Method: GET
+Summary: Load Filter Template Limits by slot Id
+
+API endpoint: /topology/manual
+Mapped function name: topologymanual
+Method: DELETE
+Summary: Delete all manually-augmented topology elements
+
+API endpoint: /trafficAnalyzer/endpoints/timeSeries
+Mapped function name: trafficAnalyzerendpointstimeSeries
+Method: GET
+Summary: Query NetFlow Endpoints Time Series
+
+API endpoint: /apps/inlineSsl/profiles/{alias}/list
+Mapped function name: appsinlineSslprofilesaliaslist
+Method: GET
+Summary: Fetch inline SSL profile whitelist and blacklist information
+
+API endpoint: /trafficAnalyzer/endpoints/top
+Mapped function name: trafficAnalyzerendpointstop
+Method: GET
+Summary: Query Top Endpoints
+
+API endpoint: /system/localUsers/{username}
+Mapped function name: systemlocalUsersusername
+Method: DELETE
+Summary: Delete Local User by username
+
+API endpoint: /apps/inlineSsl/trustStore/cert/file
+Mapped function name: appsinlineSsltrustStorecertfile
+Method: POST
+Summary: Append inline SSL trust-store from local file
+
+API endpoint: /events
+Mapped function name: events
+Method: DELETE
+Summary: Purge Event
+
+API endpoint: /inline/hbPackets
+Mapped function name: inlinehbPackets
+Method: POST
+Summary: Upload a new Heartbeat Packet (deprecated: use PATCH /inline/hbProfiles/{alias})
+
+API endpoint: /gsops/{alias}/apps
+Mapped function name: gsopsaliasapps
+Method: PATCH
+Summary: Update GSOP apps configuration
+
+API endpoint: /apps/hsm
+Mapped function name: appshsm
+Method: DELETE
+Summary: Delete all HSM
+
+API endpoint: /maps/{alias}/flowSampleRules/pass
+Mapped function name: mapsaliasflowSampleRulespass
+Method: POST
+Summary: Add new flowSampleRule to a 'secondLevel/flowSample' map
+
+API endpoint: /gigasmart/engine/{eport}
+Mapped function name: gigasmartengineeport
+Method: DELETE
+Summary: Delete GigaSMART port interface
+
+API endpoint: /apps/hsmGroup/{alias}/keyHandler
+Mapped function name: appshsmGroupaliaskeyHandler
+Method: POST
+Summary: Fetch Key Handler from Remote
+
+API endpoint: /apps/netflow/records/{alias}
+Mapped function name: appsnetflowrecordsalias
+Method: DELETE
+Summary: Delete Netflow Template by alias
+
+API endpoint: /gsGroups/{alias}/params/sipMedia
+Mapped function name: gsGroupsaliasparamssipMedia
+Method: PUT
+Summary: Redefine GS Group's Sip Media
+
+API endpoint: /portConfig/gigastreams/advHash/{slotId}
+Mapped function name: portConfiggigastreamsadvHashslotId
+Method: DELETE
+Summary: Clear customized Device Card Gigastream Advanced Hash configuration by resetting to default
+
+API endpoint: /gsGroups/{alias}/params/ipFrag
+Mapped function name: gsGroupsaliasparamsipFrag
+Method: PUT
+Summary: Redefine GS Group's IP Fragmentation Params
+
+API endpoint: /system/uboot
+Mapped function name: systemuboot
+Method: POST
+Summary: Install the binary bootloader code included with the active/booted image
+
+API endpoint: /inline/hbPackets/file
+Mapped function name: inlinehbPacketsfile
+Method: POST
+Summary: Upload a Heartbeat Packet from local file (deprecated: use POST /inline/hbProfiles/{alias}/file)
+
+API endpoint: /system/radiusServers/{serverAddress}
+Mapped function name: systemradiusServersserverAddress
+Method: DELETE
+Summary: Delete RADIUS Server by address
+
+API endpoint: /apps/sip/whitelists
+Mapped function name: appssipwhitelists
+Method: POST
+Summary: Create SIP Whitelist
+
+API endpoint: /apps/saApfProfiles/{alias}
+Mapped function name: appssaApfProfilesalias
+Method: DELETE
+Summary: Delete SA-APF Profile by alias
+
+API endpoint: /licensing/fm/licenses
+Mapped function name: licensingfmlicenses
+Method: POST
+Summary: Add FM License
+
+API endpoint: /events/{eventId}
+Mapped function name: eventseventId
+Method: GET
+Summary: Find Event by ID
+
+API endpoint: /trending/portGroupLbs/timeSeries
+Mapped function name: trendingportGroupLbstimeSeries
+Method: GET
+Summary: Query PortGroup Load Balancing Time Series
+
+API endpoint: /gsGroups/{alias}/params/sipPorts
+Mapped function name: gsGroupsaliasparamssipPorts
+Method: PUT
+Summary: Redefine GS Group's Sip Ports
+
+API endpoint: /maps/{alias}/flowWhitelistOverlapRules/pass/{ruleId}
+Mapped function name: mapsaliasflowWhitelistOverlapRulespassruleId
+Method: PUT
+Summary: update flowRule of a 'secondLevel/flowWhitelistOverlap' map
+
+API endpoint: /mapTemplates/{alias}/rules/{ruleType}
+Mapped function name: mapTemplatesaliasrulesruleType
+Method: POST
+Summary: Add new rule to a map template
+
+API endpoint: /maps/{alias}/flowRules/{ruleType}
+Mapped function name: mapsaliasflowRulesruleType
+Method: POST
+Summary: Add new flowRule to a 'secondLevel/flowFilter' map
+
+API endpoint: /gsGroups/gtpPersistence/files/{filename}
+Mapped function name: gsGroupsgtpPersistencefilesfilename
+Method: DELETE
+Summary: Delete a Gtp backup file
+
+API endpoint: /trafficAnalyzer/conversations
+Mapped function name: trafficAnalyzerconversations
+Method: GET
+Summary: Query Traffic Analyzer conversations query
+
+API endpoint: /inline/serialToolGroups
+Mapped function name: inlineserialToolGroups
+Method: POST
+Summary: Create a new Inline Serial Tool Group
+
+API endpoint: /apps/inlineSsl/profiles/{alias}/list/{listType}/file
+Mapped function name: appsinlineSslprofilesaliaslistlistTypefile
+Method: POST
+Summary: Upload a blacklist or whitelist from local file.
+
+API endpoint: /apps/inlineSsl/profiles/{alias}/keyMap
+Mapped function name: appsinlineSslprofilesaliaskeyMap
+Method: POST
+Summary: Add a new key map entry to the profile
+
+API endpoint: /apps/netflow/exporters/{alias}
+Mapped function name: appsnetflowexportersalias
+Method: DELETE
+Summary: Delete Netflow Exporter by alias
+
+API endpoint: /portConfig/gigastreams
+Mapped function name: portConfiggigastreams
+Method: POST
+Summary: Create a new gigastream
+
+API endpoint: /system/snmp/system
+Mapped function name: systemsnmpsystem
+Method: PATCH
+Summary: Update Snmp Server System config
+
+API endpoint: /imageServers/{alias}
+Mapped function name: imageServersalias
+Method: DELETE
+Summary: Delete Image Server by alias
+
+API endpoint: /system/config/revert
+Mapped function name: systemconfigrevert
+Method: POST
+Summary: Revert running configuration to last saved configuration
+
+API endpoint: /clusterConfig/backup/repo/{clusterId}
+Mapped function name: clusterConfigbackuprepoclusterId
+Method: DELETE
+Summary: Delete all config backup snapshots associated with a cluster
+
+API endpoint: /maps/{alias}/flowSampleOverlapRules/{ruleId}
+Mapped function name: mapsaliasflowSampleOverlapRulesruleId
+Method: DELETE
+Summary: Remove a flowRule from a 'secondLevel/flowSampleOverlap' map
+
+API endpoint: /gigasmart/engine
+Mapped function name: gigasmartengine
+Method: DELETE
+Summary: Delete All GigaSMART port interface
+
+API endpoint: /trending
+Mapped function name: trending
+Method: DELETE
+Summary: Purge Time Series
+
+API endpoint: /inline/hbPackets/{alias}
+Mapped function name: inlinehbPacketsalias
+Method: DELETE
+Summary: Delete Heartbeat Packet by alias (deprecated: use PUT /inline/hbProfiles/{alias})
+
+API endpoint: /maps/{alias}/flowSampleOverlapRules/pass/{ruleId}
+Mapped function name: mapsaliasflowSampleOverlapRulespassruleId
+Method: PUT
+Summary: update flowRule of a 'secondLevel/flowSampleOverlap' map
+
+API endpoint: /inventory/chassis/cards/{slotId}/configure
+Mapped function name: inventorychassiscardsslotIdconfigure
+Method: DELETE
+Summary: Unconfigure a device Chassis Card
+
+API endpoint: /maps/{alias}
+Mapped function name: mapsalias
+Method: DELETE
+Summary: Delete map by alias
+
+API endpoint: /maps/{alias}/flowWhitelistOverlapRules
+Mapped function name: mapsaliasflowWhitelistOverlapRules
+Method: DELETE
+Summary: Remove all flowRules from a 'secondLevel/flowWhitelistOverlap' map
+
+API endpoint: /gsGroups/{alias}/flowOpsReport
+Mapped function name: gsGroupsaliasflowOpsReport
+Method: POST
+Summary: Upload a FlowOps Report
+
+API endpoint: /clusterConfig/backup/repo/{clusterId}/restore
+Mapped function name: clusterConfigbackuprepoclusterIdrestore
+Method: PUT
+Summary: Restore selected config backup snapshot for a given cluster
+
+API endpoint: /apps/keystore/keys/file
+Mapped function name: appskeystorekeysfile
+Method: POST
+Summary: upload a key to the keystore from local file
+
+API endpoint: /system/ldapServers/{serverAddress}
+Mapped function name: systemldapServersserverAddress
+Method: DELETE
+Summary: Delete LDAP Server by address
+
+API endpoint: /maps/{alias}/gsRules
+Mapped function name: mapsaliasgsRules
+Method: DELETE
+Summary: Remove all gsRules from a 'secondLevel/byRule' map
+
+API endpoint: /gsGroups/{alias}/params/rtpPorts
+Mapped function name: gsGroupsaliasparamsrtpPorts
+Method: PUT
+Summary: Redefine GS Group's Rtp Ports
+
+API endpoint: /apps/keystore/keychain/lock
+Mapped function name: appskeystorekeychainlock
+Method: PUT
+Summary: Unlock keystore keychain
+
+API endpoint: /system/time/ppsSource
+Mapped function name: systemtimeppsSource
+Method: PUT
+Summary: Redefine Pulse-Per-Second Source
+
+API endpoint: /nodeCredentials
+Mapped function name: nodeCredentials
+Method: POST
+Summary: Create a new Device Credentials
+
+API endpoint: /system/aaa/auth/accountLock
+Mapped function name: systemaaaauthaccountLock
+Method: DELETE
+Summary: Clears history of login failures, and/or unlocks user account
+
+API endpoint: /gsGroups/{alias}/params/gtpFlow
+Mapped function name: gsGroupsaliasparamsgtpFlow
+Method: PUT
+Summary: Redefine GS Group's Gtp Flow Params
+
+API endpoint: /inventory/ports/{portId}
+Mapped function name: inventoryportsportId
+Method: PATCH
+Summary: Update Device Port configuration
+
+API endpoint: /system/email/notifications
+Mapped function name: systememailnotifications
+Method: PUT
+Summary: Update system email notification settings
+
+API endpoint: /maps/{alias}/flowSampleOverlapRules
+Mapped function name: mapsaliasflowSampleOverlapRules
+Method: DELETE
+Summary: Remove all flowRules from a 'secondLevel/flowSampleOverlap' map
+
+API endpoint: /system/snmp/community
+Mapped function name: systemsnmpcommunity
+Method: PATCH
+Summary: Update Snmp Server Community config
+
+API endpoint: /portConfig/tunneledPorts/gatewayMac/all
+Mapped function name: portConfigtunneledPortsgatewayMacall
+Method: DELETE
+Summary: learns new MAC for all tunneled ports, both IPv4, IPv6
+
+API endpoint: /system/time/ptp
+Mapped function name: systemtimeptp
+Method: PUT
+Summary: Redefine PTP Configuration
+
+API endpoint: /gsGroups/{alias}/params/saApf
+Mapped function name: gsGroupsaliasparamssaApf
+Method: PUT
+Summary: Redefine GS Group's saApf Params(Deprecated: use PUT/gsGroups/{alias}/params/resource)
+
+API endpoint: /clusterConfig/backup/device/{nodeId}
+Mapped function name: clusterConfigbackupdevicenodeId
+Method: PUT
+Summary: Activate the specified device-stored config file
+
+API endpoint: /system/sysdump/{filename}
+Mapped function name: systemsysdumpfilename
+Method: DELETE
+Summary: Delete Sysdump File
+
+API endpoint: /maps/{alias}/flowSampleRules/{ruleId}
+Mapped function name: mapsaliasflowSampleRulesruleId
+Method: DELETE
+Summary: Remove a flowRule from a 'secondLevel/flowSample' map
+
+API endpoint: /system/syslog/config/{clusterId}
+Mapped function name: systemsyslogconfigclusterId
+Method: PATCH
+Summary: Update Syslog Config
+
+API endpoint: /apps/inlineSsl/caching/url
+Mapped function name: appsinlineSslcachingurl
+Method: GET
+Summary: Get Inline SSL URL cache status
+
+API endpoint: /system/time/ntp/authKeys
+Mapped function name: systemtimentpauthKeys
+Method: POST
+Summary: Add an NTP Authentication Key
+
+API endpoint: /system/time/ntp/sync
+Mapped function name: systemtimentpsync
+Method: PUT
+Summary: Synchronize with an NTP server
+
+API endpoint: /apps/inlineSsl/trustStore/file
+Mapped function name: appsinlineSsltrustStorefile
+Method: GET
+Summary: Get the inline SSL trust-store file
+
+API endpoint: /fmSystem/restore
+Mapped function name: fmSystemrestore
+Method: POST
+Summary: Restore backed up FM state
+
+API endpoint: /system/config
+Mapped function name: systemconfig
+Method: POST
+Summary: Save the running configuration
+
+API endpoint: /apps/gtp/whitelists
+Mapped function name: appsgtpwhitelists
+Method: POST
+Summary: Create GTP Whitelist
+
+API endpoint: /filterTemplates/{alias}
+Mapped function name: filterTemplatesalias
+Method: DELETE
+Summary: Delete Filter Template by alias
+
+API endpoint: /maps/{alias}/rules/{ruleType}
+Mapped function name: mapsaliasrulesruleType
+Method: POST
+Summary: Add new rule to a 'regular/byRule', 'inline/byRule' or 'firstLevel/byRule' map
+
+API endpoint: /filterTemplates/limits/all
+Mapped function name: filterTemplateslimitsall
+Method: GET
+Summary: Load all Filter Template Limits
+
+API endpoint: /clusterConfig/backup/device/{nodeId}/{configFileName}
+Mapped function name: clusterConfigbackupdevicenodeIdconfigFileName
+Method: DELETE
+Summary: Delete specified device-side config file
+
+API endpoint: /apps/inlineSsl/profiles/{alias}/decrypt/tcp/portMap/ports/{ruleId}
+Mapped function name: appsinlineSslprofilesaliasdecrypttcpportMapportsruleId
+Method: DELETE
+Summary: Delete a port map entry from the profile
+
+API endpoint: /portConfig/toolPortFilters
+Mapped function name: portConfigtoolPortFilters
+Method: POST
+Summary: Create a new ToolPortFilter
+
+API endpoint: /clusterConfig/bulk/config
+Mapped function name: clusterConfigbulkconfig
+Method: POST
+Summary: Upload bulk replicate config file
+
+API endpoint: /gsGroups/{alias}/params/tunnelArpTimeout
+Mapped function name: gsGroupsaliasparamstunnelArpTimeout
+Method: PUT
+Summary: Redefine GS Group's Tunnel Arp Timeout
+
+API endpoint: /topology/manual/nodes/{topoNodeId}
+Mapped function name: topologymanualnodestopoNodeId
+Method: DELETE
+Summary: Delete Manual Topology Node
+
+API endpoint: /gsGroups/{alias}/params/loadBalance
+Mapped function name: gsGroupsaliasparamsloadBalance
+Method: PUT
+Summary: Redefine GS Group's Load Balancing Params
+
+API endpoint: /system/snmp/notifTargets
+Mapped function name: systemsnmpnotifTargets
+Method: POST
+Summary: Create a new SNMP Notification Target
+
+API endpoint: /maps/{alias}/rules
+Mapped function name: mapsaliasrules
+Method: DELETE
+Summary: Remove all rules from a 'regular/byRule', 'inline/byRule' or 'firstLevel/byRule' map
+
+API endpoint: /avisi/policies/enable
+Mapped function name: avisipoliciesenable
+Method: PUT
+Summary: Enable all policies or by policy Ids
+
+API endpoint: /trafficAnalyzer/urls/timeSeries
+Mapped function name: trafficAnalyzerurlstimeSeries
+Method: GET
+Summary: Query Netflow URL Time Series
+
+API endpoint: /inline/tools/nhbCounters
+Mapped function name: inlinetoolsnhbCounters
+Method: DELETE
+Summary: Clear negative heartbeat statistics of all Inline Tools
+
+API endpoint: /maps/{alias}/flowSampleRules/pass/{ruleId}
+Mapped function name: mapsaliasflowSampleRulespassruleId
+Method: PUT
+Summary: update flowRule of a 'secondLevel/flowSample' map
+
+API endpoint: /apps/inlineSsl/profiles/{alias}/list/{listType}
+Mapped function name: appsinlineSslprofilesaliaslistlistType
+Method: GET
+Summary: Fetch inline SSL profile whitelist or blacklist information
+
+API endpoint: /trafficAnalyzer/protocols/top
+Mapped function name: trafficAnalyzerprotocolstop
+Method: GET
+Summary: Query Top Protocols
+
+API endpoint: /apps/hsmGroup
+Mapped function name: appshsmGroup
+Method: DELETE
+Summary: Delete all HSM Group
+
+API endpoint: /apps/ssl/keystore
+Mapped function name: appssslkeystore
+Method: GET
+Summary: Get SSL Decryption Key Store State
+
+API endpoint: /licensing/fm/licenses/{licenseKey}
+Mapped function name: licensingfmlicenseslicenseKey
+Method: DELETE
+Summary: Remove FM License
+
+API endpoint: /apps/netflow/records
+Mapped function name: appsnetflowrecords
+Method: POST
+Summary: Create a new Netflow Template
+
+API endpoint: /system/aaa/roles/{roleName}
+Mapped function name: systemaaarolesroleName
+Method: DELETE
+Summary: Delete User Role by name
+
+API endpoint: /gsGroups/{alias}/params/netflow
+Mapped function name: gsGroupsaliasparamsnetflow
+Method: PUT
+Summary: Redefine GS Group's Netflow Params
+
+API endpoint: /inline/redundancyProfiles/{alias}
+Mapped function name: inlineredundancyProfilesalias
+Method: DELETE
+Summary: Delete Redundancy Profile by alias
+
+API endpoint: /avisi/templates/actions
+Mapped function name: avisitemplatesactions
+Method: GET
+Summary: Get Active Visibility Action Templates
+
+API endpoint: /topology/manual/links/{topoLinkId}
+Mapped function name: topologymanuallinkstopoLinkId
+Method: DELETE
+Summary: Delete Manual Topology Link
+
+API endpoint: /mapTemplates/{alias}/rules/{ruleId}
+Mapped function name: mapTemplatesaliasrulesruleId
+Method: DELETE
+Summary: Remove a rule from a map template
+
+API endpoint: /apps/ssl/keys/{alias}
+Mapped function name: appssslkeysalias
+Method: DELETE
+Summary: Delete SSL Decryption Key by alias
+
+API endpoint: /trending/gsops/timeSeries
+Mapped function name: trendinggsopstimeSeries
+Method: GET
+Summary: Query GSOP Time Series
+
+API endpoint: /maps/{alias}/flowSampleSipRules/{ruleId}
+Mapped function name: mapsaliasflowSampleSipRulesruleId
+Method: DELETE
+Summary: Remove a flowSampleSipRule from a 'secondLevel/flowSampleSip' map
+
+API endpoint: /portConfig/tunneledPorts/{alias}
+Mapped function name: portConfigtunneledPortsalias
+Method: DELETE
+Summary: Delete TunneledPort by alias
+
+API endpoint: /inline/tools/{alias}/hbCounters
+Mapped function name: inlinetoolsaliashbCounters
+Method: DELETE
+Summary: Clear heartbeat statistics of Inline Tool by alias
+
+API endpoint: /system/config/file
+Mapped function name: systemconfigfile
+Method: POST
+Summary: Upload a configuration file from local file.
+
+API endpoint: /trafficAnalyzer/protocols/timeSeries
+Mapped function name: trafficAnalyzerprotocolstimeSeries
+Method: GET
+Summary: Query Netflow Protocol Time Series
+
+API endpoint: /gsops/{alias}
+Mapped function name: gsopsalias
+Method: DELETE
+Summary: Delete GSOP by alias
+
+API endpoint: /trafficAnalyzer/externalInterfaces/timeSeries
+Mapped function name: trafficAnalyzerexternalInterfacestimeSeries
+Method: GET
+Summary: Query Netflow External Interfaces Time Series
+
+API endpoint: /clusterConfig/backup/file/download/{clusterId}/{backupId}
+Mapped function name: clusterConfigbackupfiledownloadclusterIdbackupId
+Method: GET
+Summary: Download a config file
+
+API endpoint: /avisi/policies/{policyId}/actions/{actionId}
+Mapped function name: avisipoliciespolicyIdactionsactionId
+Method: DELETE
+Summary: Delete Active Visibility Policy Action
+
+API endpoint: /inline/networkGroups
+Mapped function name: inlinenetworkGroups
+Method: POST
+Summary: Create a new Inline Network Group
+
+API endpoint: /maps/{alias}/flowSampleSipRules/pass/{ruleId}
+Mapped function name: mapsaliasflowSampleSipRulespassruleId
+Method: PUT
+Summary: update flowSampleSipRule of a 'secondLevel/flowSampleSip' map
+
+API endpoint: /maps/{alias}/flowWhitelistRules/pass/{ruleId}
+Mapped function name: mapsaliasflowWhitelistRulespassruleId
+Method: PUT
+Summary: update flowRule of a 'secondLevel/flowWhitelist' map
+
+API endpoint: /gsGroups/{alias}/params/flowSampling
+Mapped function name: gsGroupsaliasparamsflowSampling
+Method: PUT
+Summary: Redefine GS Group's Flow Sampling Params
+
+API endpoint: /apps/inlineSsl/profiles
+Mapped function name: appsinlineSslprofiles
+Method: GET
+Summary: Load all inline SSL profiles
+
+API endpoint: /inline/negativeHbProfiles
+Mapped function name: inlinenegativeHbProfiles
+Method: POST
+Summary: Create Negative Heartbeat Profile
+
+API endpoint: /trending/ports/timeSeries
+Mapped function name: trendingportstimeSeries
+Method: GET
+Summary: Query Physical Port Time Series
+
+API endpoint: /fmSystem/backup
+Mapped function name: fmSystembackup
+Method: POST
+Summary: Backup FM configuration state
+
+API endpoint: /apps/inlineSsl/profiles/{alias}
+Mapped function name: appsinlineSslprofilesalias
+Method: GET
+Summary: Load inline SSL profile
+
+API endpoint: /apps/ssl/keys/file
+Mapped function name: appssslkeysfile
+Method: POST
+Summary: Upload SSL Decryption Key from file. For Browser-based Clients
+
+API endpoint: /inline/networks/{alias}
+Mapped function name: inlinenetworksalias
+Method: DELETE
+Summary: Delete Inline Network by alias
+
+API endpoint: /spineLinks/{alias}
+Mapped function name: spineLinksalias
+Method: GET
+Summary: Load spine-link
+
+API endpoint: /gsGroups/{alias}/params/genericSessionTimeout
+Mapped function name: gsGroupsaliasparamsgenericSessionTimeout
+Method: PUT
+Summary: Redefine GS Group's Session Timeout
+
+API endpoint: /trending/gsEngine/timeSeries
+Mapped function name: trendinggsEnginetimeSeries
+Method: GET
+Summary: Query GS Engine Time Series
+
+API endpoint: /appFilterRsc/{slotId}
+Mapped function name: appFilterRscslotId
+Method: GET
+Summary: Load Application Filter Resource by slotId
+
+API endpoint: /inline/negativeHbProfiles/{alias}/file
+Mapped function name: inlinenegativeHbProfilesaliasfile
+Method: POST
+Summary: Upload a Negative Heartbeat Packet from local file
+
+API endpoint: /system/config/file/{filename}
+Mapped function name: systemconfigfilefilename
+Method: DELETE
+Summary: Delete a system configuration file
+
+API endpoint: /portConfig/toolPortMirrors
+Mapped function name: portConfigtoolPortMirrors
+Method: POST
+Summary: Create a new ToolPortMirror
+
+API endpoint: /mapChains/{mapChainId}/mapPriority
+Mapped function name: mapChainsmapChainIdmapPriority
+Method: PUT
+Summary: Update Map priority within its Chain
+
+API endpoint: /inline/serialToolGroups/{alias}
+Mapped function name: inlineserialToolGroupsalias
+Method: DELETE
+Summary: Delete Inline Serial Tool Group by alias
+
+API endpoint: /gsGroups/{alias}/params
+Mapped function name: gsGroupsaliasparams
+Method: PATCH
+Summary: Incremental updates to GS Group's Params
+
+API endpoint: /apps/netflow/exporters/{alias}/filter
+Mapped function name: appsnetflowexportersaliasfilter
+Method: DELETE
+Summary: Delete Netflow Exporter Filter
+
+API endpoint: /inventory/chassis/configure
+Mapped function name: inventorychassisconfigure
+Method: DELETE
+Summary: Unconfigure Device Chassis
+
+API endpoint: /apps/hsmGroup/{alias}
+Mapped function name: appshsmGroupalias
+Method: DELETE
+Summary: Delete a HSM Group by alias
+
+API endpoint: /apps/hsmGroup/{alias}/keyHandler/file
+Mapped function name: appshsmGroupaliaskeyHandlerfile
+Method: POST
+Summary: Upload world and module file from local
+
+API endpoint: /trending/netflowGenerator/exporters/timeSeries
+Mapped function name: trendingnetflowGeneratorexporterstimeSeries
+Method: GET
+Summary: Query Netflow Exporter Time Series
+
+API endpoint: /gsops
+Mapped function name: gsops
+Method: POST
+Summary: Create a new GSOP
+
+API endpoint: /inline/toolGroups
+Mapped function name: inlinetoolGroups
+Method: POST
+Summary: Create a new Inline Tool Group
+
+API endpoint: /system/config/switch
+Mapped function name: systemconfigswitch
+Method: POST
+Summary: Load a configuration file and make it the active configuration
+
+API endpoint: /gsGroups/{alias}/params/flowMask
+Mapped function name: gsGroupsaliasparamsflowMask
+Method: PUT
+Summary: Redefine GS Group's Flow Mask Params
+
+API endpoint: /apps/hsmGroupStatusReport
+Mapped function name: appshsmGroupStatusReport
+Method: GET
+Summary: Load HSM Group status report
+
+API endpoint: /portConfig/tunneledPorts/gatewayMac/ipv6
+Mapped function name: portConfigtunneledPortsgatewayMacipv6
+Method: DELETE
+Summary: learns new MAC for all IPv6 tunneled ports
+
+API endpoint: /apps/keystore/keys/{alias}
+Mapped function name: appskeystorekeysalias
+Method: GET
+Summary: get keystore key by alias
+
+API endpoint: /system/aaa/auth/servers/ldap
+Mapped function name: systemaaaauthserversldap
+Method: PUT
+Summary: Redefine LDAP system configuration
+
+API endpoint: /fmSystem/archiveServers/{serverAlias}
+Mapped function name: fmSystemarchiveServersserverAlias
+Method: DELETE
+Summary: Delete FM Backup Archive Server by alias
+
+API endpoint: /maps/{alias}/flowWhitelistRules/pass
+Mapped function name: mapsaliasflowWhitelistRulespass
+Method: POST
+Summary: Add new flowWhitelistRule to a 'secondLevel/flowWhitelist' map
+
+API endpoint: /apps/ssl/keyMaps/{alias}
+Mapped function name: appssslkeyMapsalias
+Method: DELETE
+Summary: Delete SSL Decryption configuration
+
+API endpoint: /spineLinks
+Mapped function name: spineLinks
+Method: GET
+Summary: Load spine-link configuration
+
+API endpoint: /system/snmp/notifTargets/{notifTargetAddress}
+Mapped function name: systemsnmpnotifTargetsnotifTargetAddress
+Method: DELETE
+Summary: Delete SNMP Notification Target by address
+
+API endpoint: /maps/{alias}/flowSampleSipRules/pass
+Mapped function name: mapsaliasflowSampleSipRulespass
+Method: POST
+Summary: Add new flowSampleSipRule to a 'secondLevel/flowSampleSip' map
+
+API endpoint: /system/interfaces
+Mapped function name: systeminterfaces
+Method: GET
+Summary: Load all System Interfaces
+
+API endpoint: /topology/manual/nodes
+Mapped function name: topologymanualnodes
+Method: POST
+Summary: Create Manual Topology Node
+
+API endpoint: /gsGroups/{alias}/flowOpsReport/flowSampling/summary
+Mapped function name: gsGroupsaliasflowOpsReportflowSamplingsummary
+Method: GET
+Summary: Load Flow Sampling Report Summary
+
+API endpoint: /inline/networks
+Mapped function name: inlinenetworks
+Method: POST
+Summary: Create a new Inline Network
+
+API endpoint: /system/sysdump
+Mapped function name: systemsysdump
+Method: POST
+Summary: Generate New Sysdump File
+
+API endpoint: /avisi/policiesInstantiations
+Mapped function name: avisipoliciesInstantiations
+Method: GET
+Summary: Get Active Visibility Trigger Reports
+
+API endpoint: /gsGroups/{alias}/params/sipSession
+Mapped function name: gsGroupsaliasparamssipSession
+Method: PUT
+Summary: Redefine GS Group's Sip Session
+
+API endpoint: /system/time/ntp/servers/{serverAddress}
+Mapped function name: systemtimentpserversserverAddress
+Method: DELETE
+Summary: Delete NTP Server by alias
+
+API endpoint: /mapTemplates/{alias}
+Mapped function name: mapTemplatesalias
+Method: DELETE
+Summary: Delete map template by alias
+
+API endpoint: /inline/networkGroups/{alias}
+Mapped function name: inlinenetworkGroupsalias
+Method: DELETE
+Summary: Delete Inline Network Group by alias
+
+API endpoint: /apps/ssl/endpoints
+Mapped function name: appssslendpoints
+Method: DELETE
+Summary: Delete SSL Decryption Endpoints
+
+API endpoint: /clusterConfig/imageUpgrade
+Mapped function name: clusterConfigimageUpgrade
+Method: PUT
+Summary: upgrade cluster nodes image
+
+API endpoint: /apps/inlineSsl/signing
+Mapped function name: appsinlineSslsigning
+Method: GET
+Summary: Get inline SSL certificates and private-key configured state
+
+API endpoint: /gigasmart/engine/{eport}/ping
+Mapped function name: gigasmartengineeportping
+Method: GET
+Summary: Get Ping Result
+
+API endpoint: /mapTemplates/{alias}/rules
+Mapped function name: mapTemplatesaliasrules
+Method: DELETE
+Summary: Remove all map template rules
+
+API endpoint: /trafficAnalyzer/externalInterfaces/top
+Mapped function name: trafficAnalyzerexternalInterfacestop
+Method: GET
+Summary: Query Top External Interfaces
+
+API endpoint: /portConfig/toolPortMirrors/{alias}
+Mapped function name: portConfigtoolPortMirrorsalias
+Method: DELETE
+Summary: Delete ToolPortMirror by alias
+
+API endpoint: /apps/ssl/keystore/lock
+Mapped function name: appssslkeystorelock
+Method: PUT
+Summary: Unlock SSL Decryption Key Store
+
+API endpoint: /clusterConfig/backup/device/backup
+Mapped function name: clusterConfigbackupdevicebackup
+Method: POST
+Summary: Backup active cluster file to FM
+
+API endpoint: /system/config/traffic
+Mapped function name: systemconfigtraffic
+Method: DELETE
+Summary: Delete all traffic configurations
+
+API endpoint: /maps/{alias}/flowSampleSipRules
+Mapped function name: mapsaliasflowSampleSipRules
+Method: DELETE
+Summary: Remove all flowSampleSipRules from a 'secondLevel/flowSampleSip' map
+
+API endpoint: /gsGroups/gtpPersistence
+Mapped function name: gsGroupsgtpPersistence
+Method: GET
+Summary: Load all Gtp Persistence backup restore information
+
+API endpoint: /topology
+Mapped function name: topology
+Method: GET
+Summary: Load Topology
+
+API endpoint: /gsGroups/{alias}/params/dedup
+Mapped function name: gsGroupsaliasparamsdedup
+Method: PUT
+Summary: Redefine GS Group's Dedup Params
+
+API endpoint: /maps/{alias}/rules/{ruleType}/{ruleId}
+Mapped function name: mapsaliasrulesruleTyperuleId
+Method: PUT
+Summary: update rule of a 'regular/byRule', 'inline/byRule' or 'firstLevel/byRule' map
+
+API endpoint: /apps/saApfProfiles
+Mapped function name: appssaApfProfiles
+Method: POST
+Summary: Create a new SA-APF Profile
+
+API endpoint: /gsGroups/{alias}
+Mapped function name: gsGroupsalias
+Method: DELETE
+Summary: Delete GS Group by alias
+
+API endpoint: /maps/{alias}/flowSampleOverlapRules/pass
+Mapped function name: mapsaliasflowSampleOverlapRulespass
+Method: POST
+Summary: Add new flowSampleOverlapRule to a 'secondLevel/flowSampleOverlap' map
+
+API endpoint: /gsGroups/{alias}/params/hsmGroup
+Mapped function name: gsGroupsaliasparamshsmGroup
+Method: PUT
+Summary: Redefine GS Group's HSM Group Params
+
+API endpoint: /avisi/policies/{policyId}/conditions/{conditionId}
+Mapped function name: avisipoliciespolicyIdconditionsconditionId
+Method: DELETE
+Summary: Delete Active Visibility Policy Condition
+
+API endpoint: /inline/toolGroups/{alias}
+Mapped function name: inlinetoolGroupsalias
+Method: DELETE
+Summary: Delete Inline Tool Group by alias
+
+API endpoint: /portConfig/portPairs/{alias}
+Mapped function name: portConfigportPairsalias
+Method: DELETE
+Summary: Delete PortPair by alias
+
+API endpoint: /clusterConfig/reboot
+Mapped function name: clusterConfigreboot
+Method: PUT
+Summary: reboot physical cluster nodes
+
+API endpoint: /apps/inlineSsl/profiles/{alias}/keyMap/{ruleId}
+Mapped function name: appsinlineSslprofilesaliaskeyMapruleId
+Method: DELETE
+Summary: Delete a key map entry from the profile
+
+API endpoint: /fmSystem/reboot
+Mapped function name: fmSystemreboot
+Method: PUT
+Summary: Reboot FM
+
+API endpoint: /system/syslog
+Mapped function name: systemsyslog
+Method: DELETE
+Summary: Purge Syslogs
+
+API endpoint: /vports
+Mapped function name: vports
+Method: POST
+Summary: Create a new Vport
+
+API endpoint: /inline/tools/{alias}
+Mapped function name: inlinetoolsalias
+Method: DELETE
+Summary: Delete Inline Tool by alias
+
+API endpoint: /clusterConfig/bulk/config/restoreLogs
+Mapped function name: clusterConfigbulkconfigrestoreLogs
+Method: GET
+Summary: Load all bulk replicate config restore logs
+
+API endpoint: /portConfig/gigastreams/{alias}/hashIds/{hashBucketIds}
+Mapped function name: portConfiggigastreamsaliashashIdshashBucketIds
+Method: DELETE
+Summary: Remove mapping of hash bucket to port
+
+API endpoint: /mapChains/aliases
+Mapped function name: mapChainsaliases
+Method: GET
+Summary: Load all aliased map chains
+
+API endpoint: /apps/inlineSsl/profiles/{alias}/rules
+Mapped function name: appsinlineSslprofilesaliasrules
+Method: PUT
+Summary: Replace all inline SSL profile rules
+
+API endpoint: /apps/netflow/exporters/{alias}/filter/rules
+Mapped function name: appsnetflowexportersaliasfilterrules
+Method: POST
+Summary: Add a new rule to a Netflow Exporter Filter
+
+API endpoint: /apps/sip/whitelists/{alias}/entries
+Mapped function name: appssipwhitelistsaliasentries
+Method: DELETE
+Summary: Delete SIP Whitelist Entry
+
+API endpoint: /avisi/policies
+Mapped function name: avisipolicies
+Method: POST
+Summary: Create Active Visibility Policy
+
+API endpoint: /inline/tools
+Mapped function name: inlinetools
+Method: POST
+Summary: Create a new Inline Tool
+
+API endpoint: /portConfig/tunneledPorts/gatewayMac/ipv4
+Mapped function name: portConfigtunneledPortsgatewayMacipv4
+Method: DELETE
+Summary: learns new MAC for all IPv4 tunneled ports
+
+API endpoint: /apps/netflow/exporters
+Mapped function name: appsnetflowexporters
+Method: POST
+Summary: Create a new Netflow Exporter
+
+API endpoint: /imageServers
+Mapped function name: imageServers
+Method: POST
+Summary: Create a new Image Server
+
+API endpoint: /gsGroups/{alias}/flowOpsReport/flowSip/summary
+Mapped function name: gsGroupsaliasflowOpsReportflowSipsummary
+Method: GET
+Summary: Load Flow Sip Report Summary
+
+API endpoint: /portConfig/portGroups
+Mapped function name: portConfigportGroups
+Method: POST
+Summary: Create a new PortGroup
+
+API endpoint: /apps/gtp/whitelists/{alias}/entries/all
+Mapped function name: appsgtpwhitelistsaliasentriesall
+Method: DELETE
+Summary: Delete All GTP Whitelist Entries
+
+API endpoint: /system/ldapServers
+Mapped function name: systemldapServers
+Method: POST
+Summary: Create a new LDAP Server
+
+API endpoint: /trafficAnalyzer/urls/top
+Mapped function name: trafficAnalyzerurlstop
+Method: GET
+Summary: Query Top URLs
+
+API endpoint: /portConfig/stackLinks
+Mapped function name: portConfigstackLinks
+Method: POST
+Summary: Create a new StackLink
+
+API endpoint: /portConfig/portConfigs/{portId}
+Mapped function name: portConfigportConfigsportId
+Method: PATCH
+Summary: Update a PortConfig configuration
+
+API endpoint: /gigasmart/engine/{eport}/arp
+Mapped function name: gigasmartengineeportarp
+Method: GET
+Summary: Load GigaSMART port ARP entries
+
+API endpoint: /inventory/chassis/cards/{slotId}
+Mapped function name: inventorychassiscardsslotId
+Method: PATCH
+Summary: Update Device Card configuration
+
+API endpoint: /maps/{alias}/flowRules
+Mapped function name: mapsaliasflowRules
+Method: DELETE
+Summary: Remove all flowRules from a 'secondLevel/flowFilter' map
+
+API endpoint: /system/snmp
+Mapped function name: systemsnmp
+Method: GET
+Summary: Load Snmp Server config
+
+API endpoint: /system/security
+Mapped function name: systemsecurity
+Method: PATCH
+Summary: Update Security config
+
+API endpoint: /apps/gtp/whitelists/{alias}/entries/url
+Mapped function name: appsgtpwhitelistsaliasentriesurl
+Method: POST
+Summary: Upload GTP Whitelist Entries from URL
+
+API endpoint: /gsGroups/flowOpsReport/flowSip/summary
+Mapped function name: gsGroupsflowOpsReportflowSipsummary
+Method: GET
+Summary: Load all Flow Sip Report Summary
+
+API endpoint: /gdp/cluster
+Mapped function name: gdpcluster
+Method: GET
+Summary: Get GDP Neighbor Report from every Node in a cluster
+
+API endpoint: /mapTemplates/{alias}/rules/{ruleType}/{ruleId}
+Mapped function name: mapTemplatesaliasrulesruleTyperuleId
+Method: PUT
+Summary: Update a map template rule
+
+API endpoint: /system/eventNotification/targets
+Mapped function name: systemeventNotificationtargets
+Method: GET
+Summary: Load Cluster Event Notification Status
+
+API endpoint: /apps/inlineSsl/caching/url/{domainPattern}
+Mapped function name: appsinlineSslcachingurldomainPattern
+Method: GET
+Summary: Get Inline SSL URL cache record
+
+API endpoint: /gsGroups/{alias}/params/system
+Mapped function name: gsGroupsaliasparamssystem
+Method: PUT
+Summary: Redefine GS Group's System Params
+
+API endpoint: /apps/ssl/endpoints/{alias}
+Mapped function name: appssslendpointsalias
+Method: DELETE
+Summary: Delete an SSL Decryption Endpoint by alias
+
+API endpoint: /system/snmp/v3Users
+Mapped function name: systemsnmpv3Users
+Method: POST
+Summary: Create a new SNMPv3 User
+
+API endpoint: /system/snmp/notifications
+Mapped function name: systemsnmpnotifications
+Method: PATCH
+Summary: Update Snmp Server Notification settings
+
+API endpoint: /system/time/ntp
+Mapped function name: systemtimentp
+Method: PATCH
+Summary: Update NTP Configuration
+
+API endpoint: /apps/keystore/keys/{alias}/certificate
+Mapped function name: appskeystorekeysaliascertificate
+Method: GET
+Summary: Get the certificate
+
+API endpoint: /tunnelEndpoints
+Mapped function name: tunnelEndpoints
+Method: GET
+Summary: Load Tunnel Endpoint Entries
+
+API endpoint: /nodes/flat
+Mapped function name: nodesflat
+Method: GET
+Summary: get flat/ungroupped managed device list
+
+API endpoint: /apps/inlineSsl/caching/certValidation/{fingerprint}
+Mapped function name: appsinlineSslcachingcertValidationfingerprint
+Method: GET
+Summary: Get Inline SSL certificate validation record
+
+API endpoint: /system/config/file/import
+Mapped function name: systemconfigfileimport
+Method: POST
+Summary: Instruct the device to download a configuration file from a remote host
+
+API endpoint: /portConfig/portPairs
+Mapped function name: portConfigportPairs
+Method: POST
+Summary: Create a new PortPair
+
+API endpoint: /trending/tunneledPorts/timeSeries
+Mapped function name: trendingtunneledPortstimeSeries
+Method: GET
+Summary: Query Tunneled Port Time Series
+
+API endpoint: /gigasmart/engine/arp
+Mapped function name: gigasmartenginearp
+Method: GET
+Summary: Load all GigaSMART ports ARP entries
+
+API endpoint: /maps/{alias}/flowWhitelistRules/{ruleId}
+Mapped function name: mapsaliasflowWhitelistRulesruleId
+Method: DELETE
+Summary: Remove a flowRule from a 'secondLevel/flowWhitelist' map
+
+API endpoint: /apps/netflow/monitors/{alias}
+Mapped function name: appsnetflowmonitorsalias
+Method: DELETE
+Summary: Delete Netflow Monitor by alias
+
+API endpoint: /mapGroups
+Mapped function name: mapGroups
+Method: DELETE
+Summary: Delete all Map Groups
+
+API endpoint: /mapGroups/{alias}
+Mapped function name: mapGroupsalias
+Method: DELETE
+Summary: Delete Map Group by alias
+
+API endpoint: /apps/sip/whitelists/{alias}/entries/remote
+Mapped function name: appssipwhitelistsaliasentriesremote
+Method: POST
+Summary: Upload SIP Whitelist Entries from Remote location
+
+API endpoint: /gsGroups/{alias}/params/gtpWhitelist
+Mapped function name: gsGroupsaliasparamsgtpWhitelist
+Method: PUT
+Summary: Redefine GS Group's GTP Whitelist Params
+
+API endpoint: /trending/maps/timeSeries
+Mapped function name: trendingmapstimeSeries
+Method: GET
+Summary: Query Physical Map Time Series
+
+API endpoint: /portConfig/portConfigs
+Mapped function name: portConfigportConfigs
+Method: GET
+Summary: Load all PortConfigs
+
+API endpoint: /gsGroups/{alias}/params/gtpPersistence
+Mapped function name: gsGroupsaliasparamsgtpPersistence
+Method: PUT
+Summary: Redefine GS Group's Gtp Persistence Params
+
+API endpoint: /gsGroups/{alias}/flowOpsReport/flowFiltering/summary
+Mapped function name: gsGroupsaliasflowOpsReportflowFilteringsummary
+Method: GET
+Summary: Load Flow Filtering Report Summary
+
+API endpoint: /maps/{alias}/rules/template/{templateAlias}
+Mapped function name: mapsaliasrulestemplatetemplateAlias
+Method: POST
+Summary: add template rules to a 'regular/byRule', 'inline/byRule' or 'firstLevel/byRule' map
+
+API endpoint: /portConfig/toolPortFilters/{portId}/rules/{ruleType}/{ruleId}
+Mapped function name: portConfigtoolPortFiltersportIdrulesruleTyperuleId
+Method: PUT
+Summary: update filtering rule of a Tool Port
+
+API endpoint: /trafficAnalyzer/externalInterfaces
+Mapped function name: trafficAnalyzerexternalInterfaces
+Method: GET
+Summary: Query Traffic Analyzer external interfaces query
+
+API endpoint: /inline/hbProfiles/{alias}
+Mapped function name: inlinehbProfilesalias
+Method: DELETE
+Summary: Delete Heartbeat Profile by alias
+
+API endpoint: /trafficAnalyzer/conversations/top
+Mapped function name: trafficAnalyzerconversationstop
+Method: GET
+Summary: Query Top Conversations
+
+API endpoint: /apps/inlineSsl/profiles/{alias}/rule/{ruleId}
+Mapped function name: appsinlineSslprofilesaliasruleruleId
+Method: DELETE
+Summary: Delete inline SSL profile rule
+
+API endpoint: /portConfig/stackLinks/{alias}
+Mapped function name: portConfigstackLinksalias
+Method: DELETE
+Summary: Delete StackLink by alias
+
+API endpoint: /trafficAnalyzer/apps/timeSeries
+Mapped function name: trafficAnalyzerappstimeSeries
+Method: GET
+Summary: Query NetFlow Applications Time Series
+
+API endpoint: /licensing/fm
+Mapped function name: licensingfm
+Method: GET
+Summary: Load FM Licensing Summary
+
+API endpoint: /maps/{alias}/flowSampleRules
+Mapped function name: mapsaliasflowSampleRules
+Method: DELETE
+Summary: Remove all flowRules from a 'secondLevel/flowSample' map
+
+API endpoint: /inline/hbProfiles
+Mapped function name: inlinehbProfiles
+Method: POST
+Summary: Create a new Heartbeat Profile
+
+API endpoint: /trafficAnalyzer/apps/top
+Mapped function name: trafficAnalyzerappstop
+Method: GET
+Summary: Query Top Applications
+
+API endpoint: /filterTemplates/platform/limits
+Mapped function name: filterTemplatesplatformlimits
+Method: GET
+Summary: Load all platform Filter Template Limits
+
+API endpoint: /apps/inlineSsl/trustStore/default
+Mapped function name: appsinlineSsltrustStoredefault
+Method: POST
+Summary: Reset inline SSL trust-store to default trust-store
+
+API endpoint: /system/config/files
+Mapped function name: systemconfigfiles
+Method: GET
+Summary: Load available system configuration files
+
+API endpoint: /portConfig/tunneledPorts/{alias}/gatewayMac
+Mapped function name: portConfigtunneledPortsaliasgatewayMac
+Method: DELETE
+Summary: learns new MAC for the specified tunneled port
+
+API endpoint: /gsGroups/{alias}/params/gtpControlSampling
+Mapped function name: gsGroupsaliasparamsgtpControlSampling
+Method: PUT
+Summary: Redefine GS Group's Gtp Control Sampling Params
+
+API endpoint: /apps/sip/whitelists/{alias}/entries/file
+Mapped function name: appssipwhitelistsaliasentriesfile
+Method: POST
+Summary: Upload SIP Whitelist Entries from file
+
+API endpoint: /system/time/ntp/servers
+Mapped function name: systemtimentpservers
+Method: POST
+Summary: Add an NTP Server
+
+API endpoint: /trending/gvmMaps/timeSeries
+Mapped function name: trendinggvmMapstimeSeries
+Method: GET
+Summary: Query vMap Time Series
+
+API endpoint: /maps
+Mapped function name: maps
+Method: DELETE
+Summary: Delete all maps
+
+API endpoint: /inline/hbProfiles/{alias}/file
+Mapped function name: inlinehbProfilesaliasfile
+Method: POST
+Summary: Upload a Heartbeat Packet from local file
+
+API endpoint: /apps/ssl/keyMaps/{alias}/mappings
+Mapped function name: appssslkeyMapsaliasmappings
+Method: POST
+Summary: Add an Endpoint-to-Key mapping
+
+API endpoint: /portConfig/portGroups/{alias}
+Mapped function name: portConfigportGroupsalias
+Method: DELETE
+Summary: Delete PortGroup by alias
+
+API endpoint: /system/tacacsServers
+Mapped function name: systemtacacsServers
+Method: POST
+Summary: Create a new TACACS+ Server
+
+API endpoint: /maps/{alias}/flowWhitelistOverlapRules/{ruleId}
+Mapped function name: mapsaliasflowWhitelistOverlapRulesruleId
+Method: DELETE
+Summary: Remove a flowRule from a 'secondLevel/flowWhitelistOverlap' map
+
+API endpoint: /topology/manual/links
+Mapped function name: topologymanuallinks
+Method: POST
+Summary: create a Manual Topology Link
+
+API endpoint: /system/syslog/config
+Mapped function name: systemsyslogconfig
+Method: GET
+Summary: Load Syslog config
+
+API endpoint: /system/aaa/auth/servers/radius
+Mapped function name: systemaaaauthserversradius
+Method: PUT
+Summary: Redefine RADIUS system configuration
+
+API endpoint: /clusterConfig/bulk/config/restoreLogs/{filename}
+Mapped function name: clusterConfigbulkconfigrestoreLogsfilename
+Method: DELETE
+Summary: Delete bulk replicate config restore log
+
+API endpoint: /gsGroups/{alias}/params/erspan3
+Mapped function name: gsGroupsaliasparamserspan3
+Method: PUT
+Summary: Redefine GS Group's ERSPAN III Params
+
+API endpoint: /system/radiusServers
+Mapped function name: systemradiusServers
+Method: POST
+Summary: Create a new RADIUS Server
+
+API endpoint: /avisi/templates/conditions
+Mapped function name: avisitemplatesconditions
+Method: GET
+Summary: Get Active Visibility Condition Templates
+
+API endpoint: /portConfig/toolPortFilters/{portId}/rules/{ruleType}
+Mapped function name: portConfigtoolPortFiltersportIdrulesruleType
+Method: POST
+Summary: Add new filtering rule to a Tool Port
+
+API endpoint: /gsGroups/{alias}/params/sipWhitelist
+Mapped function name: gsGroupsaliasparamssipWhitelist
+Method: PUT
+Summary: Redefine GS Group's SIP Whitelist Params
+
+API endpoint: /apps/ssl/keystore/password
+Mapped function name: appssslkeystorepassword
+Method: PUT
+Summary: Reset Key Store Password and invalidate all keys
+
+API endpoint: /auditLog/{entryId}
+Mapped function name: auditLogentryId
+Method: GET
+Summary: Find Audit Log Entry by ID
+
+API endpoint: /gsGroups/flowOpsReport/flowFiltering/summary
+Mapped function name: gsGroupsflowOpsReportflowFilteringsummary
+Method: GET
+Summary: Load all Flow Filtering Report Summary
+
+API endpoint: /apps/inlineSsl/caching/certValidation
+Mapped function name: appsinlineSslcachingcertValidation
+Method: GET
+Summary: Get Inline SSL certificate validation cache status
+
+API endpoint: /gsGroups/{alias}/params/engineWatchdogTimer
+Mapped function name: gsGroupsaliasparamsengineWatchdogTimer
+Method: PUT
+Summary: Redefine GS Group's Engine Watchdog Timer
+
+API endpoint: /events/stats/aggregate
+Mapped function name: eventsstatsaggregate
+Method: GET
+Summary: Get Counts of Events Grouped By Severity
+
+API endpoint: /apps/inlineSsl/profiles/{alias}/rule
+Mapped function name: appsinlineSslprofilesaliasrule
+Method: POST
+Summary: Create inline SSL profile rule
+
+API endpoint: /trafficAnalyzer/interfaces/timeSeries
+Mapped function name: trafficAnalyzerinterfacestimeSeries
+Method: GET
+Summary: Query Netflow Visibity Fabric Interface Time Series
+
+API endpoint: /system/aaa/auth/servers/tacacs
+Mapped function name: systemaaaauthserverstacacs
+Method: PUT
+Summary: Redefine TACACS+ system configuration
+
+API endpoint: /fmSystem/archiveServers/{serverAlias}/archiveFiles
+Mapped function name: fmSystemarchiveServersserverAliasarchiveFiles
+Method: GET
+Summary: List FM Backup archive file(s) on archive server
+
+API endpoint: /apps/inlineSsl/profiles/{alias}/keyMaps
+Mapped function name: appsinlineSslprofilesaliaskeyMaps
+Method: PUT
+Summary: Replace key map entries in the profile
+
+API endpoint: /apps/keystore/keys/generate
+Mapped function name: appskeystorekeysgenerate
+Method: POST
+Summary: generate a self-signed key in the keystore
+
+API endpoint: /gsGroups/{alias}/params/sslDecrypt
+Mapped function name: gsGroupsaliasparamssslDecrypt
+Method: PUT
+Summary: Redefine GS Group's SSL Decryption Params
+
+API endpoint: /fmSystem/archiveServers
+Mapped function name: fmSystemarchiveServers
+Method: POST
+Summary: Create FM backup archive server spec
+
+API endpoint: /inline/redundancyProfiles
+Mapped function name: inlineredundancyProfiles
+Method: POST
+Summary: Create a new Redundancy Profile
+
+API endpoint: /apps/hsm/{alias}
+Mapped function name: appshsmalias
+Method: DELETE
+Summary: Delete HSM by alias
+
+API endpoint: /portConfig/tunneledPorts
+Mapped function name: portConfigtunneledPorts
+Method: POST
+Summary: Create a new TunneledPort
+
+API endpoint: /maps/{alias}/gsRules/{ruleType}/{ruleId}
+Mapped function name: mapsaliasgsRulesruleTyperuleId
+Method: PUT
+Summary: update gsRule of a 'secondLevel/byRule' map
+
+API endpoint: /apps/saApfProfiles/{alias}/fields
+Mapped function name: appssaApfProfilesaliasfields
+Method: POST
+Summary: Add a new session field to a SA-APF Profile
+
+API endpoint: /trafficAnalyzer/interfaces/top
+Mapped function name: trafficAnalyzerinterfacestop
+Method: GET
+Summary: Query Top Interfaces
+
+API endpoint: /filterTemplates
+Mapped function name: filterTemplates
+Method: DELETE
+Summary: Delete all Filter Templates
+
+API endpoint: /maps/{alias}/flowRules/{ruleId}
+Mapped function name: mapsaliasflowRulesruleId
+Method: DELETE
+Summary: Remove a flowRule from a 'secondLevel/flowFilter' map
+
+API endpoint: /apps/inlineSsl/profiles/{alias}/decrypt/tcp/portMaps
+Mapped function name: appsinlineSslprofilesaliasdecrypttcpportMaps
+Method: PUT
+Summary: Replace port map in the profile
+
+API endpoint: /portConfig/toolPortFilters/{portId}/rules/{ruleId}
+Mapped function name: portConfigtoolPortFiltersportIdrulesruleId
+Method: DELETE
+Summary: Remove a filtering rule from a Tool Port
+
+API endpoint: /apps/netflow/exporters/{alias}/filter/rules/{ruleId}
+Mapped function name: appsnetflowexportersaliasfilterrulesruleId
+Method: DELETE
+Summary: Remove a rule from Netflow Exporter Filter
+
+API endpoint: /apps/gtp/whitelists/{alias}/entries
+Mapped function name: appsgtpwhitelistsaliasentries
+Method: DELETE
+Summary: Delete GTP Whitelist Entry
+
+API endpoint: /mapChains/{mapChainId}
+Mapped function name: mapChainsmapChainId
+Method: PUT
+Summary: Redefine Map Chain for a given set of network ports
+
+API endpoint: /inline/tools/hbCounters
+Mapped function name: inlinetoolshbCounters
+Method: DELETE
+Summary: Clear heartbeat statistics of all Inline Tools
+
+API endpoint: /apps/keystore/keychain/password
+Mapped function name: appskeystorekeychainpassword
+Method: PUT
+Summary: Reset keystore keychain password and invalidate all keys
+
+API endpoint: /system/time/clock
+Mapped function name: systemtimeclock
+Method: PUT
+Summary: Update Node System Time configuration
+
+API endpoint: /gsGroups/{alias}/params/resource
+Mapped function name: gsGroupsaliasparamsresource
+Method: PUT
+Summary: Redefine GS Group's resource Params
+
+API endpoint: /apps/inlineSsl/profiles/{alias}/decrypt/tcp/portMap/ports
+Mapped function name: appsinlineSslprofilesaliasdecrypttcpportMapports
+Method: POST
+Summary: Add a new port map entry to the profile
+
+API endpoint: /trending/gvmPorts/timeSeries
+Mapped function name: trendinggvmPortstimeSeries
+Method: GET
+Summary: Query GVM Port Time Series
+
+API endpoint: /apps/ssl/keys
+Mapped function name: appssslkeys
+Method: DELETE
+Summary: Delete All SSL Decryption Keys
+
+API endpoint: /apps/ssl/keyMaps
+Mapped function name: appssslkeyMaps
+Method: POST
+Summary: Create SSL Decryption KeyMap
+
+API endpoint: /inventory/chassis
+Mapped function name: inventorychassis
+Method: GET
+Summary: Load all Device Chassis
+
+API endpoint: /gsGroups/{alias}/gtpPersistence
+Mapped function name: gsGroupsaliasgtpPersistence
+Method: GET
+Summary: Find Gtp Persistence backup restore information by alias
+
+API endpoint: /apps/netflow/monitors
+Mapped function name: appsnetflowmonitors
+Method: POST
+Summary: Create a new Netflow Monitor
+
+API endpoint: /inline/tools/{alias}/recover
+Mapped function name: inlinetoolsaliasrecover
+Method: PUT
+Summary: Recover Inline Tool
+
+API endpoint: /clusterConfig/bulk/config/restoreLogs/config/{filename}
+Mapped function name: clusterConfigbulkconfigrestoreLogsconfigfilename
+Method: GET
+Summary: Load all bulk replicate config restore logs by config file name
+
+API endpoint: /system/eventNotification/config/{deviceIp}
+Mapped function name: systemeventNotificationconfigdeviceIp
+Method: PUT
+Summary: Modify Event notification config
+
+API endpoint: /inventory/ports/neighbors
+Mapped function name: inventoryportsneighbors
+Method: GET
+Summary: Get Port Neighbors
+
+API endpoint: /mapChains
+Mapped function name: mapChains
+Method: GET
+Summary: Load all map chains
+
+API endpoint: /mapTemplates
+Mapped function name: mapTemplates
+Method: POST
+Summary: Create a new map template
+
+API endpoint: /system/time/ntp/authKeys/{authKeyId}
+Mapped function name: systemtimentpauthKeysauthKeyId
+Method: DELETE
+Summary: Delete NTP Auth Key by alias
+
+API endpoint: /clusterConfig/bulk/config/{filename}
+Mapped function name: clusterConfigbulkconfigfilename
+Method: DELETE
+Summary: Delete bulk replicate config file and associated restore logs
+
+API endpoint: /tunnelLbEndpoints
+Mapped function name: tunnelLbEndpoints
+Method: DELETE
+Summary: Delete all tunnel endpoints
+
+API endpoint: /apps/keystore/keys
+Mapped function name: appskeystorekeys
+Method: GET
+Summary: get list of keystore keys
+
+API endpoint: /system/aaa/auth/servers
+Mapped function name: systemaaaauthservers
+Method: PATCH
+Summary: Update Remote Auth servers system configuration
+
+API endpoint: /inventory/chassis/cards
+Mapped function name: inventorychassiscards
+Method: GET
+Summary: Load all Device Cards details
+
+API endpoint: /clusterConfig/backup/repo/{clusterId}/{backupId}
+Mapped function name: clusterConfigbackuprepoclusterIdbackupId
+Method: DELETE
+Summary: Delete a labeled config backup snapshot
+
+API endpoint: /inventory/ports
+Mapped function name: inventoryports
+Method: GET
+Summary: Load all Device Ports
+
+API endpoint: /maps/{alias}/flowWhitelistRules
+Mapped function name: mapsaliasflowWhitelistRules
+Method: DELETE
+Summary: Remove all flowRules from a 'secondLevel/flowWhitelist' map
+
+API endpoint: /trafficAnalyzer/urls
+Mapped function name: trafficAnalyzerurls
+Method: GET
+Summary: Query Traffic Analyzer data by URL substring
+
+API endpoint: /gsGroups/{alias}/params/healthCheck
+Mapped function name: gsGroupsaliasparamshealthCheck
+Method: PUT
+Summary: Redefine GS Group's health check
+
+API endpoint: /avisi/policies/{policyId}/conditions
+Mapped function name: avisipoliciespolicyIdconditions
+Method: POST
+Summary: Add Active Visibility Policy Condition
+
+API endpoint: /apps/gtp/whitelists/{alias}
+Mapped function name: appsgtpwhitelistsalias
+Method: DELETE
+Summary: Delete GTP Whitelists
+
+API endpoint: /inline/negativeHbProfiles/{alias}
+Mapped function name: inlinenegativeHbProfilesalias
+Method: DELETE
+Summary: Delete Negative Heartbeat Profile by alias
+
+API endpoint: /nodes
+Mapped function name: nodes
+Method: DELETE
+Summary: remove Clusters from the managed domain
+
+API endpoint: /clusterConfig/bulk/config/download/{filename}
+Mapped function name: clusterConfigbulkconfigdownloadfilename
+Method: GET
+Summary: Download bulk replicate config file
+
+API endpoint: /apps/inlineSsl/profiles/{alias}/list/{listType}/file/{domain}
+Mapped function name: appsinlineSslprofilesaliaslistlistTypefiledomain
+Method: GET
+Summary: Search inline SSL profile whitelist or blacklist for a domain
+
+API endpoint: /apps/inlineSsl/trustStore
+Mapped function name: appsinlineSsltrustStore
+Method: GET
+Summary: Get information about the trust-store
+
+API endpoint: /maps/{alias}/gsRules/{ruleType}
+Mapped function name: mapsaliasgsRulesruleType
+Method: POST
+Summary: Add new gsRule to a 'secondLevel/byRule' map
+
+API endpoint: /apps/hsmGroup/{alias}/hsm/{hsmAlias}
+Mapped function name: appshsmGroupaliashsmhsmAlias
+Method: DELETE
+Summary: Delete HSM alias from HSM Group
+
+API endpoint: /maps/{alias}/rules/{ruleId}
+Mapped function name: mapsaliasrulesruleId
+Method: DELETE
+Summary: Remove a rule from a 'regular/byRule', 'inline/byRule' or 'firstLevel/byRule' map
+
+API endpoint: /system/syslog/archive
+Mapped function name: systemsyslogarchive
+Method: POST
+Summary: Archive Syslogs
+
+API endpoint: /avisi/policies/{policyId}/actions
+Mapped function name: avisipoliciespolicyIdactions
+Method: POST
+Summary: Add Active Visibility Policy Action
+
+API endpoint: /gdp/node
+Mapped function name: gdpnode
+Method: GET
+Summary: Get Node GDP Neighbor report
+
+API endpoint: /auditLog
+Mapped function name: auditLog
+Method: DELETE
+Summary: Purge Audit Log
+
+API endpoint: /system/localUsers
+Mapped function name: systemlocalUsers
+Method: POST
+Summary: Create a new Local User
+
+API endpoint: /portConfig/toolPortFilters/{portId}
+Mapped function name: portConfigtoolPortFiltersportId
+Method: DELETE
+Summary: Remove filter from Tool Port by port ID
+
+API endpoint: /auditLog/archive
+Mapped function name: auditLogarchive
+Method: POST
+Summary: Archive Audit Log
+
+API endpoint: /system/snmp/v3Users/{userName}
+Mapped function name: systemsnmpv3UsersuserName
+Method: DELETE
+Summary: Delete SNMPv3 User by address
+
+API endpoint: /system/aaa/auth
+Mapped function name: systemaaaauth
+Method: PATCH
+Summary: Update Node Authentication config
+
+API endpoint: /system/aaa/roles
+Mapped function name: systemaaaroles
+Method: POST
+Summary: Create a new User Role
+
+API endpoint: /gsGroups
+Mapped function name: gsGroups
+Method: POST
+Summary: Create a new GS Group
+
+API endpoint: /filterResources/{slotId}
+Mapped function name: filterResourcesslotId
+Method: GET
+Summary: Load Filter Resources by slot Id
+
+API endpoint: /inline/tools/{alias}/nhbCounters
+Mapped function name: inlinetoolsaliasnhbCounters
+Method: DELETE
+Summary: Clear negative heartbeat statistics of Inline Tool by alias
+
+API endpoint: /tunnelLbEndpoints/{teId}
+Mapped function name: tunnelLbEndpointsteId
+Method: DELETE
+Summary: Delete a tunnel endpoint
+
+API endpoint: /trending/netflowGenerator/monitors/timeSeries
+Mapped function name: trendingnetflowGeneratormonitorstimeSeries
+Method: GET
+Summary: Query Netflow Monitor Time Series
+
+API endpoint: /appFilterRsc
+Mapped function name: appFilterRsc
+Method: GET
+Summary: Load All Application Filter Resources
+
+API endpoint: /filterResources
+Mapped function name: filterResources
+Method: GET
+Summary: Load all Filter Resources
+
+API endpoint: /gsGroups/{alias}/params/sipTcpIdleTimeout
+Mapped function name: gsGroupsaliasparamssipTcpIdleTimeout
+Method: PUT
+Summary: Redefine GS Group's Sip Tcp Idle Timeout
+
+API endpoint: /maps/{alias}/gsRules/{ruleId}
+Mapped function name: mapsaliasgsRulesruleId
+Method: DELETE
+Summary: Remove a gsRule from a 'secondLevel/byRule' map
+
+API endpoint: /trafficAnalyzer/interfaces
+Mapped function name: trafficAnalyzerinterfaces
+Method: GET
+Summary: Query Traffic Analyzer interfaces query
+
+API endpoint: /mapChains/aliases/{mapChainId}
+Mapped function name: mapChainsaliasesmapChainId
+Method: GET
+Summary: Load aliased map chain by source ports
+
+API endpoint: /trafficAnalyzer/conversations/timeSeries
+Mapped function name: trafficAnalyzerconversationstimeSeries
+Method: GET
+Summary: Query NetFlow Conversations Time Series
+
+API endpoint: /system/sysdump/file/{filename}
+Mapped function name: systemsysdumpfilefilename
+Method: GET
+Summary: Download Sysdump File
+
+API endpoint: /gsGroups/flowOpsReport/flowSampling/summary
+Mapped function name: gsGroupsflowOpsReportflowSamplingsummary
+Method: GET
+Summary: Load all Flow Sampling Report Summary
+
+API endpoint: /system/config/active
+Mapped function name: systemconfigactive
+Method: GET
+Summary: Get the active system configuration file
+
+API endpoint: /apps/ssl/keyMaps/{alias}/mappings/{endpointAlias}
+Mapped function name: appssslkeyMapsaliasmappingsendpointAlias
+Method: DELETE
+Summary: Delete an Endpoint-to-Key mapping
+
+API endpoint: /apps/gtp/whitelists/{alias}/entries/file
+Mapped function name: appsgtpwhitelistsaliasentriesfile
+Method: POST
+Summary: Upload GTP Whitelist Entries from file
+
+API endpoint: /maps/{alias}/flowRules/{ruleType}/{ruleId}
+Mapped function name: mapsaliasflowRulesruleTyperuleId
+Method: PUT
+Summary: update flowRule of a 'secondLevel/flowFilter' map
+
+API endpoint: /fmSystem/imageUpgrade
+Mapped function name: fmSystemimageUpgrade
+Method: PUT
+Summary: Upgrade FM image
+
